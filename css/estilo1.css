@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    /* Aquí definimos los nombres para usarlos fácil */
+    --fuente-principal: 'Montserrat', sans-serif;  /* Para textos largos y botones */
+    --fuente-firma: 'Great Vibes', cursive;        /* Para los nombres "Mellis" */
+
+}
+
+/* ------------------------------ PAGINA 1 (index.html) ------------------------------ */
+#primera-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#seccion-primera-pagina{
+    text-align: center;
+    font-family: var(--fuente-principal);
+    color: #206c94;
+}
+
+#seccion-primera-pagina h2{
+    font-weight: 400;
+    padding-bottom: 0.5em;    
+}
